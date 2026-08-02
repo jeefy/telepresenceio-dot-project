@@ -9,7 +9,6 @@ maintainers:
     teams:
       - name: "project-maintainers"
         members:
-          - josecv
-          - knlambert
+          - bgruszka
           - njayp
           - thallgren
