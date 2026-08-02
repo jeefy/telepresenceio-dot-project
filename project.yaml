@@ -1,0 +1,72 @@
+# .project metadata for Telepresence
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "telepresence"
+name: "Telepresence"
+description: "Local development against a remote Kubernetes or OpenShift cluster"
+type: "project"
+project_lead: "josecv" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#telepresence"
+    primary: true
+  - name: "#telepresence-oss"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2018-05-15T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/872" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/telepresenceio/telepresence"
+
+website: "https://www.telepresence.io/"
+
+artwork: "https://landscape.cncf.io/logos/telepresence.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/telepresenceio/telepresence/blob/release/v2/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "telepresenceio/telepresence"
+
+social:
+  twitter: "https://twitter.com/telepresenceio"
+
+security:
+  policy:
+    path: "https://github.com/telepresenceio/telepresence/blob/release/v2/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/telepresenceio/telepresence/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/telepresenceio/telepresence/blob/release/v2/docs/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/telepresenceio/telepresence/blob/release/v2/CODE-OF-CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/telepresenceio/telepresence/blob/release/v2/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/telepresenceio/telepresence/blob/release/v2/README.md"
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Application Definition & Image Build"
+
+# CLOMonitor Score: 69/100
+# Documentation: 93 | License: 75 | Best Practices: 32 | Security: 55
