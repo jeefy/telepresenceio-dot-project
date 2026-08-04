@@ -10,5 +10,6 @@ maintainers:
       - name: "project-maintainers"
         members:
           - bgruszka
+          - breland-openai
           - njayp
           - thallgren
